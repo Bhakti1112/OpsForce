@@ -1,0 +1,79 @@
+body {
+  background: #d5cabd;
+  color: #222;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #436369;
+  margin-top: 0;
+}
+
+a {
+  color: #436369;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #222;
+}
+
+button {
+  background: #436369;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin: 0.2rem 0;
+}
+button:hover {
+  background: #d5cabd;
+  color: #222;
+  border: 1px solid #436369;
+}
+
+input, textarea, select {
+  border: 1px solid #436369;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background: #fff;
+  color: #222;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+input:focus, textarea:focus, select:focus {
+  border: 2px solid #436369;
+  outline: none;
+}
+
+.card, .item-card {
+  background: #436369;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(67,99,105,0.15);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover, .item-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(67,99,105,0.25);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #d5cabd;
+}
+::-webkit-scrollbar-thumb {
+  background: #436369;
+  border-radius: 8px;
+}
